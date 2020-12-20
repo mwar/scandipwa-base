@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "190910d249727ad641b27f648a6d42a3",
+    "content-hash": "66b14d7ba6a599be132569d9aa793cd4",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -17581,6 +17581,36 @@
             ],
             "description": "ScandiPWA dedicated router",
             "time": "2020-09-07T10:32:08+00:00"
+        },
+        {
+            "name": "scandipwa/sample-data",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/sample-data.git",
+                "reference": "9a487e389bcfc376b3e6d3c701af0844213cf62a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/sample-data/zipball/9a487e389bcfc376b3e6d3c701af0844213cf62a",
+                "reference": "9a487e389bcfc376b3e6d3c701af0844213cf62a",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento2-base": "^2.3.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\SampleData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Sample data for ScandiPWA",
+            "time": "2020-12-08T13:41:33+00:00"
         },
         {
             "name": "scandipwa/slider",
